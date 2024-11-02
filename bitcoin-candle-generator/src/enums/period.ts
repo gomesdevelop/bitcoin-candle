@@ -1,0 +1,12 @@
+enum Period {
+  TEN_SEC = 10000,
+  THIRTY_SEC = 30000,
+  ONE_MIN = 60000,
+  FIVE_MIN = 300000,
+  TEN_MIN = 600000,
+  HALF_HOUR = 1800000,
+  ONE_HOUR = 3600000,
+  ONE_DAY = 86400000,
+}
+
+export default Period;
